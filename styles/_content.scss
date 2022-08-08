@@ -1,0 +1,55 @@
+.announcement{
+    background-color:#F9F1E6;
+    height:auto;
+}
+.textinsidecarousel{
+    position: absolute;
+    z-index:999999999999 ;
+    top: 0;
+    left: 35%;
+    text-align:center;
+    margin-top:10%;
+    color:#fff;
+    h1{}
+    h2{
+        font-size:40px
+
+    }
+    button{
+        color:#000;
+        background-color:#FFC55F;
+        padding:20px
+    }
+}
+.sliderbtn{
+    border:none;
+    padding:20px;
+    font-size:20px;
+    width: auto;
+    
+}
+.faded-text{
+    opacity: 0.5;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.smallbtn{
+    border:none;
+    padding:10px;
+    font-size:20px;
+    width: auto;
+    background-color:#FFC55F;
+    margin-top: 25px;
+a{
+    text-decoration: none;
+}
+}
+.btn:hover{
+    background-color: #f5a721;
+}
+p a:hover{
+    color: #F09457 !important;
+}
+.headers{
+    margin-top: 10px;
+}

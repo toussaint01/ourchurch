@@ -1,0 +1,12 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'navbar';
+@import 'content';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.textapplied{
+    font-family: 'Roboto', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: #000 !important;
+}
