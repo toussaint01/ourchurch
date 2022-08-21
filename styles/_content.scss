@@ -51,7 +51,8 @@ p a:hover{
 }
 .headers{
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    padding-left: 0;
 }
 .announcement h5{
     position: relative;
@@ -73,14 +74,48 @@ p a:hover{
     border:none;
     padding:10px;
     font-size:15px;
-    width: 50%;
+    width: auto;
     height: 40px;
     background-color:#FFC55F;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .detailsbtn:hover{
     background-color: #f5a721 !important;
 }
 .slider{
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+}
+.side-announcement{
+    background-color:#F9F1E6;
+height: auto;
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+width: auto;
+}
+.side-announcement h4{
+    position: relative;
+}
+.side-announcement .smallborder::after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -12px;
+    width: 30px;
+    height: 4px;
+    background: #919191;
+    margin-left: -15px;
+}
+.songlist{
+    text-align: left;
+}
+
+.list-hr{
+   width: 80%;
+   opacity:0.3;
+margin-left:auto;
+margin-right:auto;
+}
+.sborder{
+    border-bottom: 5px solid #919191;
 }
