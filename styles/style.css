@@ -12714,6 +12714,30 @@ footer {
   background-color: #494743;
 }
 
+.textinfooter li {
+  list-style-type: none;
+}
+
+.textinfooter li a {
+  color: #F9F1E6 !important;
+}
+
+.textinfooter li a:hover {
+  color: #F09457 !important;
+}
+
+.social-icons a {
+  opacity: 0.5;
+}
+
+.social-icons a .social-icons a:hover {
+  background-color: #F9F1E6;
+}
+
+.textinfooter {
+  margin-top: 30px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
