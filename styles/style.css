@@ -12500,14 +12500,16 @@ li a:hover {
 
 .new-section {
   margin-top: 30px !important;
-  padding-left: 0;
 }
 
 .textinsidecarousel {
   position: absolute;
   z-index: 999999999999;
   top: 0;
-  left: 35%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   margin-top: 10%;
   color: #fff;
@@ -12701,6 +12703,25 @@ p a:hover {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 767px) {
+  .ministry-section {
+    text-align: center;
+  }
+  .ministry-section img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subscribebtn {
+    margin-bottom: 20px;
+  }
+  .galleryimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
 footer {
   background-color: #53504C;
   color: #F9F1E6;
@@ -12736,6 +12757,25 @@ footer {
 
 .textinfooter {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .sectionsinfooter {
+    margin-top: 30px;
+  }
+  .textinfooter {
+    margin-top: 0;
+  }
+  .subscribebtn {
+    float: none !important;
+    width: 100% !important;
+  }
+  .email-header {
+    text-align: center !important;
+  }
+  .form-text {
+    text-align: center !important;
+  }
 }
 
 body {

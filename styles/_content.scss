@@ -4,13 +4,15 @@
 }
 .new-section{
     margin-top: 30px !important;
-    padding-left: 0;
 }
 .textinsidecarousel{
     position: absolute;
     z-index:999999999999 ;
     top: 0;
-    left: 35%;
+    left: 0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
     text-align:center;
     margin-top:10%;
     color:#fff;
@@ -174,3 +176,21 @@ margin: 0;
     padding-left:0;
     margin-top: 20px;
 }
+    @media only screen and (max-width: 767px) {
+        .ministry-section{
+            img{
+                margin-left:auto;
+                margin-right:auto
+            }
+           text-align: center;
+            } 
+           .subscribebtn{
+            margin-bottom: 20px;
+           }
+           .galleryimg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+           }
+    }
