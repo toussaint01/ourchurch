@@ -12703,6 +12703,10 @@ p a:hover {
   margin-top: 20px;
 }
 
+.sectionsinfooter ul {
+  padding-left: 0;
+}
+
 @media only screen and (max-width: 767px) {
   .ministry-section {
     text-align: center;
@@ -12719,6 +12723,13 @@ p a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+  .side-announcement {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .side-announcement .songlist {
+    margin-top: 10px;
   }
 }
 
